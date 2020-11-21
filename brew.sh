@@ -45,10 +45,6 @@ mas install 803453959 ## Slack
 mas install 525912054 ## Wifi Signal
 mas install 784801555 ## OneNote
 
-
-# Install all the cask apps
-brew cask install ${CASKAPPS[@]}
-
 # Remove outdated versions from the cellar.
 brew cleanup
 
