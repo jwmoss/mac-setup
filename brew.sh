@@ -39,8 +39,8 @@ CASKAPPS=(
     firefox
     powershell
     dropbox
-    visual-studio-code
     discord
+    visual-studio-code-insiders
 )
 
 # Install Apps from App Store
