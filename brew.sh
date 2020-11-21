@@ -13,7 +13,6 @@ brew update
 brew upgrade
 
 brew install ansible
-brew install ffmpeg
 brew install gh
 brew install go
 brew install git
@@ -27,7 +26,7 @@ brew install rclone
 brew install speedtest-cli
 brew install ssh-copy-id
 brew install terraform
-brew installyoutube-dl
+brew install youtube-dl
 
 ## Brew Cask installs
 brew cask install firefox
