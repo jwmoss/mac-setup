@@ -14,7 +14,6 @@ brew upgrade
 
 PACKAGES=(
   ansible
-  conftest
   ffmpeg
   gh
   go
