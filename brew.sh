@@ -12,35 +12,29 @@ brew update
 # Upgrade packages
 brew upgrade
 
-PACKAGES=(
-  ansible
-  ffmpeg
-  gh
-  go
-  git
-  imagemagick
-  mas
-  openssl
-  openssl@1.1
-  packer
-  pandoc
-  rclone
-  speedtest-cli
-  ssh-copy-id
-  terraform
-  youtube-dl
-)
+brew install ansible
+brew install ffmpeg
+brew install gh
+brew install go
+brew install git
+brew install imagemagick
+brew install mas
+brew install openssl
+brew install openssl@1.1
+brew install packer
+brew install pandoc
+brew install rclone
+brew install speedtest-cli
+brew install ssh-copy-id
+brew install terraform
+brew installyoutube-dl
 
-## Install all the things
-brew install ${PACKAGES[@]}
-
-CASKAPPS=(
-    firefox
-    powershell
-    dropbox
-    discord
-    visual-studio-code-insiders
-)
+## Brew Cask installs
+brew cask install firefox
+brew cask install powershell
+brew cask install dropbox
+brew cask install discord
+brew cask install visual-studio-code-insiders
 
 # Install Apps from App Store
 mas install 808809998 ## Reeder 3
