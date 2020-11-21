@@ -30,10 +30,16 @@ PACKAGES=(
   youtube-dl
 )
 
+## Install all the things
 brew install ${PACKAGES[@]}
 
-# Install PowerShell
-brew cask install powershell
+CASKAPPS=(
+    firefox
+    powershell
+)
+
+# Install all the cask apps
+brew cask install ${CASKAPPS[@]}
 
 # Remove outdated versions from the cellar.
 brew cleanup
