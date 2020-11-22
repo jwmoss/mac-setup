@@ -31,6 +31,7 @@ brew install youtube-dl
 ## Brew Cask installs
 brew cask install firefox
 brew cask install powershell
+brew cask install docker
 brew cask install dropbox
 brew cask install discord
 brew cask install visual-studio-code-insiders
