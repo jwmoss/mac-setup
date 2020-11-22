@@ -36,7 +36,6 @@ brew cask install discord
 brew cask install visual-studio-code-insiders
 
 # Install Apps from App Store
-mas install 808809998 ## Reeder 3
 mas install 1384080005 ## Tweetbot 3
 mas install 409203825 ## Numbers
 mas install 409201541 ## Pages
