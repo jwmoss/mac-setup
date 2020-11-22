@@ -43,6 +43,7 @@ mas install 409183694 ## Keynote
 mas install 803453959 ## Slack
 mas install 525912054 ## Wifi Signal
 mas install 784801555 ## OneNote
+mas install 1333542190 ## 1Password 7
 
 # Remove outdated versions from the cellar.
 brew cleanup
