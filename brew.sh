@@ -54,11 +54,3 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Install PowerLevel10k
 brew install romkatv/powerlevel10k/powerlevel10k
 echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-
-## Install PowerLevel Fonts
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-chmod +x install.sh
-./install.sh
-cd ..
-rm -rf fonts
