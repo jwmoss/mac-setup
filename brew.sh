@@ -49,7 +49,7 @@ mas install 784801555 ## OneNote
 brew cleanup
 
 ## Install ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 ## Install PowerLevel10k
 brew install romkatv/powerlevel10k/powerlevel10k
