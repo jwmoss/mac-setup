@@ -30,6 +30,7 @@ brew install youtube-dl
 
 ## Brew Cask installs
 brew cask install 1password-cli
+brew cask install cyberduck
 brew cask install firefox
 brew cask install powershell
 brew cask install docker
