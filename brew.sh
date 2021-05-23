@@ -12,7 +12,6 @@ brew update
 # Upgrade packages
 brew upgrade
 
-brew install ansible
 brew install gh
 brew install go
 brew install git
@@ -29,14 +28,6 @@ brew install terraform
 brew install youtube-dl
 
 ## Brew Cask installs
-brew cask install 1password-cli
-brew cask install cyberduck
-brew cask install firefox
-brew cask install powershell
-brew cask install docker
-brew cask install dropbox
-brew cask install discord
-brew cask install visual-studio-code-insiders
 
 # Install Apps from App Store
 mas install 1384080005 ## Tweetbot 3
@@ -55,5 +46,3 @@ brew cleanup
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 ## Install PowerLevel10k
-brew install romkatv/powerlevel10k/powerlevel10k
-echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
